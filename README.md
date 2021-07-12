@@ -11,11 +11,11 @@ ssh-keygen -t rsa -C "user@email.com" -b 4096 -f ~/.ssh/id_rsa_gitlab
 
 ``` bash
 # Copiar chave pública para o GitHub
-pbcopy < ~/.ssh/id_rsa_github.pub
+cat < ~/.ssh/id_rsa_github.pub
 # Em seguida colar no painel do GitHub
 
 # Copiar chave pública para o GitLab
-pbcopy < ~/.ssh/id_rsa_gitlab.pub
+cat < ~/.ssh/id_rsa_gitlab.pub
 # Em seguida colar no painel do GitLab
 ```
 
